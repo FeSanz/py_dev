@@ -1,0 +1,138 @@
+{
+  "SourceSystemCode" : null,
+  "SourceSystemType" : "EXTERNAL",
+  "ErrorsExistFlag" : "false",
+  "MaterialTransactionDetail" : [ {
+    "InvTransactionId" : 323057,
+    "SourceSystemCode" : null,
+    "OrganizationCode" : "102",
+    "WorkOrderNumber" : "WO-102-1026",
+    "AssemblySerialNumber" : null,
+    "WoOperationSequenceNumber" : 20,
+    "TransactionDate" : "2022-08-01T22:09:43.044+00:00",
+    "TransactionTypeCode" : "MATERIAL_ISSUE",
+    "InventoryItemNumber" : "CGP02",
+    "ItemRevision" : null,
+    "TransactionQuantity" : 1,
+    "TransactionUOMCode" : null,
+    "TransactionUnitOfMeasure" : "Pz",
+    "SecondaryTransactionQuantity" : 98,
+    "SubinventoryCode" : "Stores",
+    "Locator" : null,
+    "WorkDefinitionCode" : null,
+    "WorkOrderType" : "STANDARD",
+    "WorkOrderSubType" : null,
+    "SourceHeaderReference" : null,
+    "SourceHeaderReferenceId" : null,
+    "SourceLineReference" : null,
+    "SourceLineReferenceId" : null,
+    "ReasonCode" : null,
+    "TransactionNote" : null,
+    "POLineNumber" : null,
+    "PONumber" : null,
+    "SoldToLegalEntityName" : null,
+    "ErrorMessages" : "",
+    "ErrorMessageNames" : "",
+    "OutputTypeCode" : null,
+    "ProjectNumber" : null,
+    "TaskNumber" : null,
+    "UseCommonInventoryFlag" : null,
+    "CountryOfOriginCode" : null,
+    "TransactionLot" : [ {
+      "LotNumber" : "CGP-0035",
+      "TransactionQuantity" : 1,
+      "SecondaryTransactionQuantity" : 98,
+      "LotExpirationDate" : null,
+      "ErrorMessages" : "",
+      "ErrorMessageNames" : "",
+      "LotOriginationDate" : null,
+      "LotHoldUntilDate" : null,
+      "ParentLotNumber" : null,
+      "links" : [ {
+        "rel" : "self",
+        "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail/300000243882073/child/TransactionLot/300000243882074",
+        "name" : "TransactionLot",
+        "kind" : "item",
+        "properties" : {
+          "changeIndicator" : "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+        }
+      }, {
+        "rel" : "canonical",
+        "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail/300000243882073/child/TransactionLot/300000243882074",
+        "name" : "TransactionLot",
+        "kind" : "item"
+      }, {
+        "rel" : "parent",
+        "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail/300000243882073",
+        "name" : "MaterialTransactionDetail",
+        "kind" : "item"
+      }, {
+        "rel" : "child",
+        "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail/300000243882073/child/TransactionLot/300000243882074/child/TransactionLotDFF",
+        "name" : "TransactionLotDFF",
+        "kind" : "collection"
+      } ]
+    } ],
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail/300000243882073",
+      "name" : "MaterialTransactionDetail",
+      "kind" : "item",
+      "properties" : {
+        "changeIndicator" : "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+      }
+    }, {
+      "rel" : "canonical",
+      "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail/300000243882073",
+      "name" : "MaterialTransactionDetail",
+      "kind" : "item"
+    }, {
+      "rel" : "parent",
+      "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072",
+      "name" : "materialTransactions",
+      "kind" : "item"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail/300000243882073/child/ComponentTransactionDetail",
+      "name" : "ComponentTransactionDetail",
+      "kind" : "collection"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail/300000243882073/child/OrderlessTransactionDFF",
+      "name" : "OrderlessTransactionDFF",
+      "kind" : "collection"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail/300000243882073/child/TransactionLot",
+      "name" : "TransactionLot",
+      "kind" : "collection"
+    }, {
+      "rel" : "child",
+      "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail/300000243882073/child/TransactionSerial",
+      "name" : "TransactionSerial",
+      "kind" : "collection"
+    } ]
+  } ],
+  "links" : [ {
+    "rel" : "self",
+    "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072",
+    "name" : "materialTransactions",
+    "kind" : "item",
+    "properties" : {
+      "changeIndicator" : "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+    }
+  }, {
+    "rel" : "canonical",
+    "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072",
+    "name" : "materialTransactions",
+    "kind" : "item",
+    "properties" : {
+      "changeIndicator" : "ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078700000000178"
+    }
+  }, {
+    "rel" : "child",
+    "href" : "https://fa-eqgj-dev1-saasfademo1.ds-fa.oraclepdemos.com:443/fscmRestApi/resources/11.13.18.05/materialTransactions/300000243882072/child/MaterialTransactionDetail",
+    "name" : "MaterialTransactionDetail",
+    "kind" : "collection"
+  } ]
+}
